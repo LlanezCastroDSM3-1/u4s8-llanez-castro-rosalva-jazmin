@@ -1,0 +1,179 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$djlrsjbYtnpzCw0KM36wWC$ZULUZRRFvpTAfRi7du/0UkqsRrBt2/k1nIZX8KKnpvw=",
+    "last_login": "2026-10-20T19:33:12.419Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-22T18:54:47.616Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$tfKUgNofQR9RJEC7CkTaFx$/HjFE4wg6WaSPCY2vljnrV4UWCGfMcRDDsXKiBJ4cjM=",
+    "last_login": "2026-10-19T18:18:14.933Z",
+    "is_superuser": false,
+    "username": "usuario_a",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-19T17:46:01.624Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$65PJbJFASaqdaOQi4iT2FR$QYunG9hKqP6bC43YJVqG1FwaEJ/xzCXqtu5MOHimleY=",
+    "last_login": "2026-10-19T17:48:15.573Z",
+    "is_superuser": false,
+    "username": "usuario_b",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-19T17:48:11.823Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 2,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "coralin",
+    "descripcion": "coraline",
+    "precio": "1500.00",
+    "categoria": "terror",
+    "creado_en": "2026-10-05T16:35:29.550Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 3,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "minecraft",
+    "descripcion": "minecraft",
+    "precio": "500.00",
+    "categoria": "videojuego",
+    "creado_en": "2026-10-05T16:36:11.014Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 4,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "lefth 4 deaf",
+    "descripcion": "lefth 4 deaf",
+    "precio": "12.00",
+    "categoria": "videojuego",
+    "creado_en": "2026-10-05T16:36:56.264Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 5,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "miku",
+    "descripcion": "miku es bien chila fuentes:  creanme porfa",
+    "precio": "2500.00",
+    "categoria": "musica",
+    "creado_en": "2026-10-05T16:38:50.987Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 6,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "lavado de ropa",
+    "descripcion": "lavado con cloro",
+    "precio": "500.00",
+    "categoria": "lavado",
+    "creado_en": "2026-10-05T17:49:03.148Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 8,
+  "fields": {
+    "propietario": [
+      "admin"
+    ],
+    "titulo": "snack",
+    "descripcion": "acfa",
+    "precio": "12.00",
+    "categoria": "dssg",
+    "creado_en": "2026-10-13T21:13:44.068Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 10,
+  "fields": {
+    "propietario": [
+      "usuario_b"
+    ],
+    "titulo": "lavado de ropa",
+    "descripcion": "jsckjas",
+    "precio": "1499.77",
+    "categoria": "lavado",
+    "creado_en": "2026-10-19T17:52:21.303Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 12,
+  "fields": {
+    "propietario": [
+      "usuario_a"
+    ],
+    "titulo": "hamburgesa",
+    "descripcion": "kasjcjcl",
+    "precio": "30.00",
+    "categoria": "comida",
+    "creado_en": "2026-10-19T18:00:25.595Z"
+  }
+},
+{
+  "model": "core.servicio",
+  "pk": 13,
+  "fields": {
+    "propietario": [
+      "usuario_a"
+    ],
+    "titulo": "oscar",
+    "descripcion": "sjnvdksnv",
+    "precio": "15.00",
+    "categoria": "persona",
+    "creado_en": "2026-10-19T18:01:03.013Z"
+  }
+}
+]

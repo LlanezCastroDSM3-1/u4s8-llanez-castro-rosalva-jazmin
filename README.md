@@ -1,5 +1,3 @@
-# U4S8 - Rosalva Jazmin Llanez Castro
-
 # U4S8 — Llanez Castro Rosalva Jazmin
 
 <!-- sección con la URL pública de Render -->
